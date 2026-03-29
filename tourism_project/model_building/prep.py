@@ -47,20 +47,27 @@ print(f'Features: {X.shape} | Target distribution: {y.value_counts().to_dict()}'
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2, random_state=42)
 print(f'Train: {Xtrain.shape} | Test: {Xtest.shape}')
 
-# Save splits to local Colab paths
-Xtrain.to_csv('/content/Xtrain.csv', index=False)
-Xtest.to_csv('/content/Xtest.csv',   index=False)
-ytrain.to_csv('/content/ytrain.csv', index=False)
-ytest.to_csv('/content/ytest.csv',   index=False)
-print('Splits saved locally.')
+import os
+
+# Create a safe output directory inside your repo
+output_dir = "tourism_project/data_splits"
+os.makedirs(output_dir, exist_ok=True)
+
+# Save train/test splits
+Xtrain.to_csv(os.path.join(output_dir, "Xtrain.csv"), index=False)
+Xtest.to_csv(os.path.join(output_dir, "Xtest.csv"), index=False)
+ytrain.to_csv(os.path.join(output_dir, "ytrain.csv"), index=False)
+ytest.to_csv(os.path.join(output_dir, "ytest.csv"), index=False)
+print(f"Splits saved in {output_dir}")
 
 # Upload each split to HF dataset repo
-for f in ['Xtrain.csv', 'Xtest.csv', 'ytrain.csv', 'ytest.csv']:
+for f in ["Xtrain.csv", "Xtest.csv", "ytrain.csv", "ytest.csv"]:
     api.upload_file(
-        path_or_fileobj=f'/content/{f}',
+        path_or_fileobj=os.path.join(output_dir, f),
         path_in_repo=f,
-        repo_id='Murali0606/tourismdataset',
-        repo_type='dataset',
+        repo_id="Murali0606/tourismdataset",
+        repo_type="dataset",
     )
-    print(f'Uploaded {f} to HF Hub.')
+    print(f"Uploaded {f} to HF Hub.")
+
 print('All splits uploaded successfully.')
