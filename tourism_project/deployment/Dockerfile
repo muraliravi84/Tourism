@@ -1,26 +1,25 @@
+
 # Minimal Python 3.9 base image
-FROM python:3.9
+FROM python:3.9-slim
 
 # Set container working directory
 WORKDIR /app
 
-# Copy all local files into the container
+# Copy requirements first (better caching)
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy all project files
 COPY . .
 
-# Install all Python dependencies
-RUN pip3 install -r requirements.txt
-
-# Create a non-root user for security best practice
-RUN useradd -m -u 1000 user
+# Create non-root user
+RUN useradd -m user
 USER user
-ENV HOME=/home/user \
-    PATH=/home/user/.local/bin:$PATH
 
-# Set working directory to user home
-WORKDIR $HOME/app
+# Expose Streamlit port
+EXPOSE 8501
 
-# Copy app files with correct ownership
-COPY --chown=user . $HOME/app
-
-# Start Streamlit on port 8501 accessible externally
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableXsrfProtection=false"]
+# Entrypoint
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
