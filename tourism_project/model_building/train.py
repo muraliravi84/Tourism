@@ -8,11 +8,6 @@ from sklearn.metrics import classification_report
 import joblib
 from huggingface_hub.utils import RepositoryNotFoundError
 from huggingface_hub import HfApi, create_repo
-import mlflow
-
-# MLflow tracking server (started by GitHub Actions)
-# mlflow.set_tracking_uri('http://localhost:5000')
-# mlflow.set_experiment('mlops-training-experiment')
 
 # HF API — token injected by GitHub Actions secret
 api = HfApi()
@@ -42,55 +37,43 @@ param_grid = {
     'xgbclassifier__reg_lambda':       [0.4, 0.5]
 }
 
-with mlflow.start_run():
-    grid_search = GridSearchCV(model_pipeline, param_grid, cv=5, n_jobs=-1)
-    grid_search.fit(Xtrain, ytrain)
+# Train with GridSearchCV
+grid_search = GridSearchCV(model_pipeline, param_grid, cv=5, n_jobs=-1)
+grid_search.fit(Xtrain, ytrain)
 
-    results = grid_search.cv_results_
-    # for i in range(len(results['params'])):
-    #     with mlflow.start_run(nested=True):
-    #         mlflow.log_params(results['params'][i])
-    #         mlflow.log_metric('mean_test_score', results['mean_test_score'][i])
-    #         mlflow.log_metric('std_test_score',  results['std_test_score'][i])
+best_model = grid_search.best_estimator_
 
-    # mlflow.log_params(grid_search.best_params_)
-    best_model = grid_search.best_estimator_
+# Predictions with threshold
+classification_threshold = 0.45
+y_pred_train = (best_model.predict_proba(Xtrain)[:, 1] >= classification_threshold).astype(int)
+y_pred_test  = (best_model.predict_proba(Xtest)[:, 1]  >= classification_threshold).astype(int)
 
-    classification_threshold = 0.45
-    y_pred_train = (best_model.predict_proba(Xtrain)[:, 1] >= classification_threshold).astype(int)
-    y_pred_test  = (best_model.predict_proba(Xtest)[:, 1]  >= classification_threshold).astype(int)
+# Reports
+train_report = classification_report(ytrain, y_pred_train)
+test_report  = classification_report(ytest,  y_pred_test)
+print('--- Train Classification Report ---')
+print(train_report)
+print('--- Test Classification Report ---')
+print(test_report)
 
-    train_report = classification_report(ytrain, y_pred_train, output_dict=True)
-    test_report  = classification_report(ytest,  y_pred_test,  output_dict=True)
+# Save model locally inside artifacts folder
+artifact_dir = "tourism_project/artifacts"
+os.makedirs(artifact_dir, exist_ok=True)
+model_path = os.path.join(artifact_dir, "best-tourism-model-v1.joblib")
+joblib.dump(best_model, model_path)
+print(f"Model saved: {model_path}")
 
-    mlflow.log_metrics({
-        'train_accuracy':  train_report['accuracy'],
-        'train_precision': train_report['1']['precision'],
-        'train_recall':    train_report['1']['recall'],
-        'train_f1_score':  train_report['1']['f1-score'],
-        'test_accuracy':   test_report['accuracy'],
-        'test_precision':  test_report['1']['precision'],
-        'test_recall':     test_report['1']['recall'],
-        'test_f1_score':   test_report['1']['f1-score'],
-    })
-    print(f"Test Accuracy: {test_report['accuracy']:.4f} | Recall: {test_report['1']['recall']:.4f}")
+# Upload model to HF Hub
+repo_id, repo_type = "Murali0606/tourism-model", "model"
+try:
+    api.repo_info(repo_id=repo_id, repo_type=repo_type)
+except RepositoryNotFoundError:
+    create_repo(repo_id=repo_id, repo_type=repo_type, private=False)
 
-    # Save model locally
-    model_path = 'best-tourism-model-v1.joblib'
-    joblib.dump(best_model, model_path)
-    mlflow.log_artifact(model_path, artifact_path='model')
-
-    # Upload model to HF Hub
-    repo_id, repo_type = 'Murali0606/tourism-model', 'model'
-    try:
-        api.repo_info(repo_id=repo_id, repo_type=repo_type)
-    except RepositoryNotFoundError:
-        create_repo(repo_id=repo_id, repo_type=repo_type, private=False)
-
-    api.upload_file(
-        path_or_fileobj=model_path,
-        path_in_repo=model_path,
-        repo_id=repo_id,
-        repo_type=repo_type,
-    )
-    print(f'Model uploaded to HF Hub: {repo_id}')
+api.upload_file(
+    path_or_fileobj=model_path,
+    path_in_repo="best-tourism-model-v1.joblib",
+    repo_id=repo_id,
+    repo_type=repo_type,
+)
+print(f"Model uploaded to HF Hub: {repo_id}")
