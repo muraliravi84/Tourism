@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/b0c3d2424ed644d388edca0e57fb3237/artifacts
+end_time: 1774759830213
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0c3d2424ed644d388edca0e57fb3237
+run_name: upset-fowl-845
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830198
+status: 3
+tags: []
+user_id: root

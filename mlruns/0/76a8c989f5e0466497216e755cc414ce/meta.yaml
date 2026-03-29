@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/76a8c989f5e0466497216e755cc414ce/artifacts
+end_time: 1774759858470
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 76a8c989f5e0466497216e755cc414ce
+run_name: nimble-yak-908
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858454
+status: 3
+tags: []
+user_id: root

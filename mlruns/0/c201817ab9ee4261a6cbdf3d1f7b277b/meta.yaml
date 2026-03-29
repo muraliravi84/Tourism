@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/c201817ab9ee4261a6cbdf3d1f7b277b/artifacts
+end_time: 1774759858225
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c201817ab9ee4261a6cbdf3d1f7b277b
+run_name: wistful-croc-888
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858209
+status: 3
+tags: []
+user_id: root

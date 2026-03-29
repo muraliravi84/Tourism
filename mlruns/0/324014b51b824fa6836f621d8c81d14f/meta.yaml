@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/324014b51b824fa6836f621d8c81d14f/artifacts
+end_time: 1774759829949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 324014b51b824fa6836f621d8c81d14f
+run_name: casual-boar-613
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829935
+status: 3
+tags: []
+user_id: root

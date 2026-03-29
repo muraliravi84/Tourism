@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/a680ae45ead14dc985c234e60d69d003/artifacts
+end_time: 1774759830053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a680ae45ead14dc985c234e60d69d003
+run_name: handsome-pug-939
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830039
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/7b233dc7e73042bdb96072bb7752c2dd/artifacts
+end_time: 1774759830036
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b233dc7e73042bdb96072bb7752c2dd
+run_name: angry-crab-747
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830021
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/81945f13399c444bb19a1a89048af75a/artifacts
+end_time: 1774759857898
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 81945f13399c444bb19a1a89048af75a
+run_name: burly-mare-913
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759857869
+status: 3
+tags: []
+user_id: root

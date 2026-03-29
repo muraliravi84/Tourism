@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/1e4424d367c64b6d94ceca3dc40bfefb/artifacts
+end_time: 1774759830087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e4424d367c64b6d94ceca3dc40bfefb
+run_name: glamorous-conch-602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830072
+status: 3
+tags: []
+user_id: root

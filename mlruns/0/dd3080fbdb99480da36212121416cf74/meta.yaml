@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/dd3080fbdb99480da36212121416cf74/artifacts
+end_time: 1774759858546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd3080fbdb99480da36212121416cf74
+run_name: defiant-seal-658
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858529
+status: 3
+tags: []
+user_id: root

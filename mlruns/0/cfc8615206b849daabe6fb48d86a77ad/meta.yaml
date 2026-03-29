@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/cfc8615206b849daabe6fb48d86a77ad/artifacts
+end_time: 1774759829883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfc8615206b849daabe6fb48d86a77ad
+run_name: smiling-cub-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829867
+status: 3
+tags: []
+user_id: root

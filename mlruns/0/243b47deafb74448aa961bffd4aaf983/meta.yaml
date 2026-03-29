@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/243b47deafb74448aa961bffd4aaf983/artifacts
+end_time: 1774759830177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 243b47deafb74448aa961bffd4aaf983
+run_name: bustling-jay-365
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830161
+status: 3
+tags: []
+user_id: root

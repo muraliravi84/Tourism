@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/55dcea9c56a34c9c8fcc2708460e6bce/artifacts
+end_time: 1774759858068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55dcea9c56a34c9c8fcc2708460e6bce
+run_name: upset-dove-870
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858044
+status: 3
+tags: []
+user_id: root

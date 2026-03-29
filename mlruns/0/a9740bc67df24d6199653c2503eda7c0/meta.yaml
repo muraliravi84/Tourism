@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/a9740bc67df24d6199653c2503eda7c0/artifacts
+end_time: 1774759858431
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9740bc67df24d6199653c2503eda7c0
+run_name: caring-shrimp-377
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858415
+status: 3
+tags: []
+user_id: root

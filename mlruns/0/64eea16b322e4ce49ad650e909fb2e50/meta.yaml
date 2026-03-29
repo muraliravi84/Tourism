@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/64eea16b322e4ce49ad650e909fb2e50/artifacts
+end_time: 1774759830195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64eea16b322e4ce49ad650e909fb2e50
+run_name: bright-grouse-328
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830180
+status: 3
+tags: []
+user_id: root

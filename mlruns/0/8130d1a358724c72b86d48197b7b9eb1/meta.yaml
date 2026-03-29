@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/8130d1a358724c72b86d48197b7b9eb1/artifacts
+end_time: 1774759858114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8130d1a358724c72b86d48197b7b9eb1
+run_name: resilient-ram-0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858099
+status: 3
+tags: []
+user_id: root

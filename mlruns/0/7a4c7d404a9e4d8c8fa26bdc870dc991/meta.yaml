@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/7a4c7d404a9e4d8c8fa26bdc870dc991/artifacts
+end_time: 1774759858134
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a4c7d404a9e4d8c8fa26bdc870dc991
+run_name: lyrical-snipe-228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858117
+status: 3
+tags: []
+user_id: root

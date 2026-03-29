@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/8d8703dfd74c4a0aaed94619ba247ab6/artifacts
+end_time: 1774759830002
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d8703dfd74c4a0aaed94619ba247ab6
+run_name: bold-bass-598
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829987
+status: 3
+tags: []
+user_id: root

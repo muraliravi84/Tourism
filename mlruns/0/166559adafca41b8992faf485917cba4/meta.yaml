@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/166559adafca41b8992faf485917cba4/artifacts
+end_time: 1774759830584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 166559adafca41b8992faf485917cba4
+run_name: classy-fox-116
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759820725
+status: 3
+tags: []
+user_id: root

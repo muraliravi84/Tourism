@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/b9634b8dbc294565b5efe39d582b9c54/artifacts
+end_time: 1774759829848
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9634b8dbc294565b5efe39d582b9c54
+run_name: salty-robin-485
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829830
+status: 3
+tags: []
+user_id: root

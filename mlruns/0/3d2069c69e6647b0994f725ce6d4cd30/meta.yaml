@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/3d2069c69e6647b0994f725ce6d4cd30/artifacts
+end_time: 1774759829966
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d2069c69e6647b0994f725ce6d4cd30
+run_name: luminous-sponge-930
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829951
+status: 3
+tags: []
+user_id: root

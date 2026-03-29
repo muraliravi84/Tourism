@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/555284e5ef5e4e009728f7f6809308db/artifacts
+end_time: 1774759830157
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 555284e5ef5e4e009728f7f6809308db
+run_name: kindly-goat-780
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830143
+status: 3
+tags: []
+user_id: root

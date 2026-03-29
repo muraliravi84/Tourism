@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/daa3a5acb2024a6699337b0646496910/artifacts
+end_time: 1774759830248
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daa3a5acb2024a6699337b0646496910
+run_name: judicious-rat-554
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830233
+status: 3
+tags: []
+user_id: root

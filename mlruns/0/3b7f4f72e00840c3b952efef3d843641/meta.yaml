@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/3b7f4f72e00840c3b952efef3d843641/artifacts
+end_time: 1774759858096
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b7f4f72e00840c3b952efef3d843641
+run_name: redolent-lamb-957
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858073
+status: 3
+tags: []
+user_id: root

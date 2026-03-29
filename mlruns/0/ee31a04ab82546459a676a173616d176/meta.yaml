@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/ee31a04ab82546459a676a173616d176/artifacts
+end_time: 1774759858284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee31a04ab82546459a676a173616d176
+run_name: stately-worm-335
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858266
+status: 3
+tags: []
+user_id: root

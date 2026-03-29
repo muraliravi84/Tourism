@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/e89dc6d425c94fa09ecf0400c589a268/artifacts
+end_time: 1774759830231
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e89dc6d425c94fa09ecf0400c589a268
+run_name: bemused-goat-882
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830215
+status: 3
+tags: []
+user_id: root

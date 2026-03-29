@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/653dd244b8584a0196b5fe341cfb234a/artifacts
+end_time: 1774759858207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 653dd244b8584a0196b5fe341cfb234a
+run_name: inquisitive-vole-415
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858191
+status: 3
+tags: []
+user_id: root

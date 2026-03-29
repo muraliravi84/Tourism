@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/eb7796bbeb4b4bc78e43ae55605066ff/artifacts
+end_time: 1774759830019
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb7796bbeb4b4bc78e43ae55605066ff
+run_name: unleashed-stag-346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830004
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/71550e5948a04468aea912d90d3e3e64/artifacts
+end_time: 1774759858412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71550e5948a04468aea912d90d3e3e64
+run_name: redolent-crow-716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858397
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/c045ae11102848be8bc36378256bb639/artifacts
+end_time: 1774759858603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c045ae11102848be8bc36378256bb639
+run_name: dapper-gnu-31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759849544
+status: 3
+tags: []
+user_id: root

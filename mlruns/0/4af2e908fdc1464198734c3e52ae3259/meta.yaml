@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/4af2e908fdc1464198734c3e52ae3259/artifacts
+end_time: 1774759829865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4af2e908fdc1464198734c3e52ae3259
+run_name: awesome-calf-448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829850
+status: 3
+tags: []
+user_id: root

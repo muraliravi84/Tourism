@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/fbcc44c22bd547ab8366eebcf58c2c44/artifacts
+end_time: 1774759857983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbcc44c22bd547ab8366eebcf58c2c44
+run_name: nebulous-shrike-916
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759857959
+status: 3
+tags: []
+user_id: root

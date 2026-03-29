@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/c29edeb8c2c0404cb6e41c135b77cbd4/artifacts
+end_time: 1774759858263
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c29edeb8c2c0404cb6e41c135b77cbd4
+run_name: marvelous-hog-749
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858247
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/0d0500e26edd4394a79b4b7db5543bde/artifacts
+end_time: 1774759830409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d0500e26edd4394a79b4b7db5543bde
+run_name: powerful-fox-890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830381
+status: 3
+tags: []
+user_id: root

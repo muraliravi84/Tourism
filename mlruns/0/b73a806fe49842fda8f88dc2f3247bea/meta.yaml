@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/b73a806fe49842fda8f88dc2f3247bea/artifacts
+end_time: 1774759830284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b73a806fe49842fda8f88dc2f3247bea
+run_name: unequaled-hound-92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830268
+status: 3
+tags: []
+user_id: root

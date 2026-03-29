@@ -11,17 +11,17 @@ from huggingface_hub import HfApi, create_repo
 import mlflow
 
 # MLflow tracking server (started by GitHub Actions)
-mlflow.set_tracking_uri('http://localhost:5000')
-mlflow.set_experiment('mlops-training-experiment')
+# mlflow.set_tracking_uri('http://localhost:5000')
+# mlflow.set_experiment('mlops-training-experiment')
 
 # HF API — token injected by GitHub Actions secret
 api = HfApi()
 
 # Load splits from HF Hub (available after prep.py runs in CI/CD)
-Xtrain = pd.read_csv('hf://datasets/rknv1984/tourism-dataset/Xtrain.csv')
-Xtest  = pd.read_csv('hf://datasets/rknv1984/tourism-dataset/Xtest.csv')
-ytrain = pd.read_csv('hf://datasets/rknv1984/tourism-dataset/ytrain.csv').squeeze()
-ytest  = pd.read_csv('hf://datasets/rknv1984/tourism-dataset/ytest.csv').squeeze()
+Xtrain = pd.read_csv('hf://datasets/Murali0606/tourismdataset/Xtrain.csv')
+Xtest  = pd.read_csv('hf://datasets/Murali0606/tourismdataset/Xtest.csv')
+ytrain = pd.read_csv('hf://datasets/Murali0606/tourismdataset/ytrain.csv').squeeze()
+ytest  = pd.read_csv('hf://datasets/Murali0606/tourismdataset/ytest.csv').squeeze()
 print(f'Data loaded — Train: {Xtrain.shape}, Test: {Xtest.shape}')
 
 # Class imbalance weight
@@ -47,13 +47,13 @@ with mlflow.start_run():
     grid_search.fit(Xtrain, ytrain)
 
     results = grid_search.cv_results_
-    for i in range(len(results['params'])):
-        with mlflow.start_run(nested=True):
-            mlflow.log_params(results['params'][i])
-            mlflow.log_metric('mean_test_score', results['mean_test_score'][i])
-            mlflow.log_metric('std_test_score',  results['std_test_score'][i])
+    # for i in range(len(results['params'])):
+    #     with mlflow.start_run(nested=True):
+    #         mlflow.log_params(results['params'][i])
+    #         mlflow.log_metric('mean_test_score', results['mean_test_score'][i])
+    #         mlflow.log_metric('std_test_score',  results['std_test_score'][i])
 
-    mlflow.log_params(grid_search.best_params_)
+    # mlflow.log_params(grid_search.best_params_)
     best_model = grid_search.best_estimator_
 
     classification_threshold = 0.45

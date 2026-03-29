@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/7fa02ddf64bf4419adb1ca1ef663c815/artifacts
+end_time: 1774759858320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fa02ddf64bf4419adb1ca1ef663c815
+run_name: carefree-crab-250
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858305
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/6e7213d3245142118cc5fb9bb85457ad/artifacts
+end_time: 1774759830266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e7213d3245142118cc5fb9bb85457ad
+run_name: debonair-donkey-887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830251
+status: 3
+tags: []
+user_id: root

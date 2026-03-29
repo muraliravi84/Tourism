@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/44d7399788e8473db98ca48f47facd61/artifacts
+end_time: 1774759830123
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44d7399788e8473db98ca48f47facd61
+run_name: defiant-cub-195
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830109
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/8a2d4f2bb28f45b59c871ff963e640d7/artifacts
+end_time: 1774759829899
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a2d4f2bb28f45b59c871ff963e640d7
+run_name: angry-stork-265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829885
+status: 3
+tags: []
+user_id: root

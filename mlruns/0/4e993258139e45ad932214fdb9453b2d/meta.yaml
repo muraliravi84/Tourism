@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/4e993258139e45ad932214fdb9453b2d/artifacts
+end_time: 1774759858039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4e993258139e45ad932214fdb9453b2d
+run_name: amazing-robin-735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858015
+status: 3
+tags: []
+user_id: root

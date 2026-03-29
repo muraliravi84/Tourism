@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/0c1f3d7a9472429380e1de1c0fec279b/artifacts
+end_time: 1774759858188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c1f3d7a9472429380e1de1c0fec279b
+run_name: dashing-deer-227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858173
+status: 3
+tags: []
+user_id: root

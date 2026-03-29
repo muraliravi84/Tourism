@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/9ef5725f283e4e10adaa02a8e14817c0/artifacts
+end_time: 1774759858526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ef5725f283e4e10adaa02a8e14817c0
+run_name: beautiful-fawn-185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858509
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/24644a0861664cb1a279c18d6d202f26/artifacts
+end_time: 1774759829984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24644a0861664cb1a279c18d6d202f26
+run_name: youthful-vole-279
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759829968
+status: 3
+tags: []
+user_id: root

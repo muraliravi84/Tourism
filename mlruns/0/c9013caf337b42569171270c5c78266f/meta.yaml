@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/c9013caf337b42569171270c5c78266f/artifacts
+end_time: 1774759858507
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9013caf337b42569171270c5c78266f
+run_name: dapper-asp-662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858491
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/7fe9f8ff769f455284b40213490764f6/artifacts
+end_time: 1774759858244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fe9f8ff769f455284b40213490764f6
+run_name: sneaky-lark-136
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759858227
+status: 3
+tags: []
+user_id: root

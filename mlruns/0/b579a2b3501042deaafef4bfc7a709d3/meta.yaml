@@ -1,0 +1,14 @@
+artifact_uri: file:///content/Tourism/mlruns/0/b579a2b3501042deaafef4bfc7a709d3/artifacts
+end_time: 1774759830309
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b579a2b3501042deaafef4bfc7a709d3
+run_name: honorable-gnat-806
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774759830286
+status: 3
+tags: []
+user_id: root
